@@ -6,6 +6,10 @@
   font-weight: normal;
 }
 
+html {
+  background-color: #0f172a;
+}
+
 body {
   font-family: 'Fira Code', monospace;
   font-family: 'Fira Mono', monospace;
