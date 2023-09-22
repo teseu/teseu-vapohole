@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import Card from '@/components/ui/TheCard.vue'
 import List from '@/components/TheList.vue'
 import Fedora from '@/components/icons/IconFedora.vue'
+import Teseu from '@/assets/teseu.png'
 
 const items = ref([
   {
@@ -39,7 +40,7 @@ const items = ref([
 <template>
   <main>
     <div class="flex">
-      <img alt="Teseu logo" class="logo w-48 h-48" src="@/assets/teseu.png" />
+      <img alt="Teseu logo" class="logo w-48 h-48" :src="Teseu" />
       <h1 class="flex text-7xl w-full justify-center items-center pb-6">Página do Teseu</h1>
     </div>
     <div class="flex justify-between gap-4 mt-6">
