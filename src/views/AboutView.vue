@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import Card from '@/components/ui/TheCard.vue'
 import List from '@/components/TheList.vue'
+import Title from '@/components/ui/TheTitle.vue'
 
 const items = ref([
   {
@@ -26,7 +27,9 @@ const items = ref([
 <template>
   <div class="flex flex-col">
     <div class="flex flex-col gap-4">
-      <h1 class="text-3xl mb-4">Sobre esta página</h1>
+      <Title>
+        <template #titulo>Sobre essa página</template>
+      </Title>
       <Card>
         <template #titulo>Tecnologias</template>
         <ul class="text-xl">
