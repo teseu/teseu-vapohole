@@ -1,4 +1,5 @@
 <script setup>
+import Card from '@/components/ui/TheCard.vue'
  import Title from '@/components/ui/TheTitle.vue'
 </script>
 
@@ -10,9 +11,7 @@
       </Title>
       <Card>
         <template #titulo>Tecnologias</template>
-        <ul class="text-xl">
-          
-        </ul>
+        <h2 class="text-3xl">Em breve</h2>
       </Card>
     </div>
     <div class="flex flex-col gap-4 mt-6">
