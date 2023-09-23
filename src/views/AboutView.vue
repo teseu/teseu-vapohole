@@ -46,7 +46,7 @@ const items = ref([
       <h2 class="text-2xl mb-4">Alguns screenshots</h2>
       <Card class="mb-8">
         <template #titulo>Terminal</template>
-        <div class="flex justify-center gap-6">
+        <div class="flex flex-col lg:flex-row justify-center gap-6">
           <div class="max-w-max">
             <h2 class="text-3xl mb-4">Tmux customizado</h2>
             <Imagem
