@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import Card from '@/components/ui/TheCard.vue'
 import List from '@/components/TheList.vue'
 import Fedora from '@/components/icons/IconFedora.vue'
-import Teseu from '@/assets/teseu.png'
+import Teseu from '@/assets/img/teseu.png'
 
 const items = ref([
   {
