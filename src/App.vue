@@ -9,6 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav class="w-[80vw] mx-auto flex justify-start gap-4 py-4 mb-1 relative">
         <RouterLink class="link" to="/">Home</RouterLink>
         <RouterLink class="link" to="/about">About</RouterLink>
+        <RouterLink class="link" to="/dicas">Dicas</RouterLink>
       </nav>
     </div>
   </header>
