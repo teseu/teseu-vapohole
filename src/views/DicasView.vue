@@ -56,7 +56,16 @@ import Card from '@/components/ui/TheCard.vue'
         </p>
         <p class="text-base mb-4">O plugin em questão é o <a class="link" href="https://github.com/tmux-plugins/tpm">Tmux Plugin Manager - TPM</a>, q mostra sua instalação, como instalar outros, exemplos e um <a class="link" href="https://github.com/tmux-plugins/list">link</a> com uma lista de plugins, com as mais variadas funcionalidades, para escolher, recomendo muito.</p>
       </Card>
-      
+      <Card>
+        <template #titulo>Editores</template>
+        <p class="text-base mb-4">Essa não é uma dica de interface, pelo menos não apenas de interface, uma vez que as alterações realizadas no editores não tem fim apenas estético (embora isso ajude muito tb), mas principalmente são uma forma de facilitar o uso, aumentar as funcionalidades e deixar a curva de aprendizado para uma produtividade razoável menos íngrime.</p>
+        <h2 class="text-3xl mb-4">Neovide com AstroVim</h2>
+        <p class="text-base mb-4">Uma escolha entre tantas, com o <a class="link" href="https://astronvim.com/">AstroVim</a> tanto as transformações na aparência qto novas funcionalidades já vem todas no mesmo pacote. Embora seja possível customizar além disso e haja temas para q a aparência assuma outras formas, à gosto do usuário, vc instala o pacote e tudo já está lá. tudo bem direto ao ponto</p>
+        <h2 class="text-3xl mb-4">Spacemacs</h2>
+        <p class="text-base mb-4">Não muito diferente do anterior em conceito, tb é um conjunto de 'ferramentas' (plugins, temas e extensões, aqui chamadas de layers) q preparam o <a class="links" href="https://www.spacemacs.org/"></a> Emacs para um uso mais parecido com editores de texto de interface gráfica, com muitas funcionalidades com acesso simplificado.</p>
+        <h2 class="text-3xl mb-4">Vim customizado</h2>
+        <p class="text-base mb-4">Essa não é uma dica de interface, pelo menos não apenas de interface.</p>
+      </Card>  
     </div>
   </div>
 </template>
