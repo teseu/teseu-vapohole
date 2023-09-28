@@ -64,7 +64,9 @@ import Card from '@/components/ui/TheCard.vue'
         <h2 class="text-3xl mb-4">Spacemacs</h2>
         <p class="text-base mb-4">Não muito diferente do anterior em conceito, tb é um conjunto de 'ferramentas' (plugins, temas e extensões, aqui chamadas de layers) q preparam o <a class="links" href="https://www.spacemacs.org/"></a> Emacs para um uso mais parecido com editores de texto de interface gráfica, com muitas funcionalidades com acesso simplificado.</p>
         <h2 class="text-3xl mb-4">Vim customizado</h2>
-        <p class="text-base mb-4">Essa não é uma dica de interface, pelo menos não apenas de interface.</p>
+        <p class="text-base mb-4">Para as alterações no Vim, q eu preferi não usar o mesmo dotfile do NeoVim (q por sua vez compartilha as configurações do Neovide, já citado e com uma imagem na página About), eu tive outra abordagem, mas não ficou sem sua cota de modificações.</p>
+        <p class="text-base mb-4">As customizações são extensas e feitas 'à mão', uma a uma. Encontrei um vídeo com essas dicas e fui seguindo e alterando, não fiz exatamente como está no vídeo, uma vez q se trata de uma customização, então deve ficar como eu gostaria e ñ necessariamente como mostrado no vídeo.</p>
+        <p class="text-base mb-4">O <a class="link" href="https://www.youtube.com/watch?v=hdZMqMeruSQ">vídeo</a> em questão é muito útil e merece uma conferida, ainda q ñ se vá fazer o q ele sugere, só pelo conhecimento q acaba sendo transmitido de qq forma. Como é muita coisa e tudo está bem explicado, não é um vídeo rápido, tem um pouco mais de 1h de duração, mas vale o tempo investido.</p>
       </Card>  
     </div>
   </div>
