@@ -7,6 +7,8 @@ import Imagem from '@/components/ui/PlaceImage.vue'
 import Li from '@/assets/img/li.png'
 import Tmux from '@/assets/img/tmux.png'
 import Neovide from '@/assets/img/neovide.png'
+import Emacs from '@/assets/img/emacs.png'
+import Vim from '@/assets/img/vim.png'
 
 const items = ref([
   {
@@ -85,6 +87,35 @@ const items = ref([
             alt="Neovide com customizações do AstroVim"
             caption="Neovide com customizações do AstroVim"
             />
+      </Card>
+      <Card>
+        <template #titulo>Spacemacs e Vim customizado</template>
+        <div class="flex flex-col lg:flex-row justify-center gap-6">
+          <div class="max-w-max">
+            <h2 class="text-3xl mb-4">Spacemacs</h2>
+            <Imagem
+            class="mb-8"
+            addFClass="w-full hover:scale-150 transition-all duration-300"
+            addIClass="rounded-t-lg mx-auto"
+            addCClass="bg-neutral-950 px-2 py-1 rounded-b-lg"
+            :src="Emacs" 
+            alt="Spacemacs abrindo um projeto"
+            caption="Spacemacs abrindo um projeto"
+            />
+          </div>
+          <div class="max-w-max">
+            <h2 class="text-3xl mb-4">Vim customizado</h2>
+            <Imagem
+            class="mb-8"
+            addFClass="w-full hover:scale-150 transition-all duration-300"
+            addIClass="rounded-t-lg mx-auto"
+            addCClass="bg-neutral-950 px-2 py-1 rounded-b-lg"
+            :src="Vim" 
+            alt="Vim após várias modificações"
+            caption="Vim após várias modificações"
+            />
+          </div>
+        </div>
       </Card>
     </div>
   </div>
