@@ -9,6 +9,8 @@ import Tmux from '@/assets/img/tmux.png'
 import Neovide from '@/assets/img/neovide.png'
 import Emacs from '@/assets/img/emacs.png'
 import Vim from '@/assets/img/vim.png'
+import Links from '@/assets/img/teseu-gopher-t.png'
+import Lagrange from '@/assets/img/teseu-gopher.png'
 
 const items = ref([
   {
@@ -113,6 +115,35 @@ const items = ref([
             :src="Vim" 
             alt="Vim após várias modificações"
             caption="Vim após várias modificações"
+            />
+          </div>
+        </div>
+      </Card>
+      <Card>
+        <template #titulo>Gopher Space</template>
+        <div class="flex flex-col lg:flex-row justify-center gap-6">
+          <div class="max-w-max">
+            <h2 class="text-3xl mb-4">Links</h2>
+            <Imagem
+            class="mb-8"
+            addFClass="w-full hover:scale-150 transition-all duration-300"
+            addIClass="rounded-t-lg mx-auto"
+            addCClass="bg-neutral-950 px-2 py-1 rounded-b-lg"
+            :src="Links" 
+            alt="Gopher Space no Links"
+            caption="Gopher Space no Links"
+            />
+          </div>
+          <div class="max-w-max">
+            <h2 class="text-3xl mb-4">Lagrange</h2>
+            <Imagem
+            class="mb-8"
+            addFClass="w-full hover:scale-150 transition-all duration-300"
+            addIClass="rounded-t-lg mx-auto"
+            addCClass="bg-neutral-950 px-2 py-1 rounded-b-lg"
+            :src="Lagrange" 
+            alt="Gopher space no Lagrange"
+            caption="Gopher space no Lagrange"
             />
           </div>
         </div>
